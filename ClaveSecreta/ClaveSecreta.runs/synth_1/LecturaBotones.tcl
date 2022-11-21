@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.runs/synth_1/LecturaBotones.tcl"
+  variable script "D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.runs/synth_1/LecturaBotones.tcl"
   variable category "vivado_synth"
 }
 
@@ -76,21 +76,24 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.cache/wt [current_project]
-set_property parent.project_path D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.xpr [current_project]
+set_property webtalk.parent_dir D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.cache/wt [current_project]
+set_property parent.project_path D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
-set_property target_language VHDL [current_project]
+set_property target_language Verilog [current_project]
+set_property board_part_repo_paths {C:/Users/MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
-set_property ip_output_repo d:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.cache/ip [current_project]
+set_property ip_output_repo d:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/integerMemoryCell.vhd
+read_vhdl -library xil_defaultlib {
+  D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/codificador.vhd
+  D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/integerMemoryCell.vhd
+}
 read_vhdl -vhdl2008 -library xil_defaultlib {
-  D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/Integer_ShiftRegister.vhd
-  D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/codificador.vhd
-  D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/pulseCleaner.vhd
-  D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/LecturaBotones.vhd
+  D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/Integer_ShiftRegister.vhd
+  D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/pulseCleaner.vhd
+  D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/LecturaBotones.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -101,12 +104,10 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Documents/Workspaces/Vivado_Workspace/digilent-xdc-master/Nexys-4-DDR-Master.xdc
-set_property used_in_implementation false [get_files D:/Documents/Workspaces/Vivado_Workspace/digilent-xdc-master/Nexys-4-DDR-Master.xdc]
+read_xdc D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/constrs_1/new/Nexys-4-DDR-Master.xdc
+set_property used_in_implementation false [get_files D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.srcs/constrs_1/new/Nexys-4-DDR-Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
-
-read_checkpoint -auto_incremental -incremental D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/utils_1/imports/synth_1/LecturaBotones.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

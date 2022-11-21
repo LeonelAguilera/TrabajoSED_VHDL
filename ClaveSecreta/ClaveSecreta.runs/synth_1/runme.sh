@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/Programas/Vivado/Install/Vivado/2022.1/ids_lite/ISE/bin/nt64;D:/Programas/Vivado/Install/Vivado/2022.1/ids_lite/ISE/lib/nt64:D:/Programas/Vivado/Install/Vivado/2022.1/bin
+  PATH=D:/Programas/Vivado/Install/Vivado/2021.1/ids_lite/ISE/bin/nt64;D:/Programas/Vivado/Install/Vivado/2021.1/ids_lite/ISE/lib/nt64:D:/Programas/Vivado/Install/Vivado/2021.1/bin
 else
-  PATH=D:/Programas/Vivado/Install/Vivado/2022.1/ids_lite/ISE/bin/nt64;D:/Programas/Vivado/Install/Vivado/2022.1/ids_lite/ISE/lib/nt64:D:/Programas/Vivado/Install/Vivado/2022.1/bin:$PATH
+  PATH=D:/Programas/Vivado/Install/Vivado/2021.1/ids_lite/ISE/bin/nt64;D:/Programas/Vivado/Install/Vivado/2021.1/ids_lite/ISE/lib/nt64:D:/Programas/Vivado/Install/Vivado/2021.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.runs/synth_1'
+HD_PWD='D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,13 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2022.1 (64-bit)
-# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
-# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Sun Nov 13 18:58:57 2022
-# Process ID: 11924
-# Current directory: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.runs/synth_1
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 21 10:56:29 2022
+# Process ID: 16228
+# Current directory: D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.runs/synth_1
 # Command line: vivado.exe -log LecturaBotones.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LecturaBotones.tcl
-# Log file: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.runs/synth_1/LecturaBotones.vds
-# Journal file: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.runs/synth_1\vivado.jou
-# Running On: DESKTOP-NGQHGS4, OS: Windows, CPU Frequency: 3400 MHz, CPU Physical cores: 16, Host memory: 34266 MB
+# Log file: D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.runs/synth_1/LecturaBotones.vds
+# Journal file: D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source LecturaBotones.tcl -notrace
