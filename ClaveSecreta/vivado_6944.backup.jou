@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Nov 24 14:54:04 2022
+# Process ID: 6944
+# Current directory: C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8444 C:\Users\Cristina\Downloads\SED\TrabajoVHDL\ClaveSecreta\ClaveSecreta.xpr
+# Log file: C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/vivado.log
+# Journal file: C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd]
+export_ip_user_files -of_objects  [get_files C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd
+add_files -norecurse C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd
+file delete -force C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd
+close [ open C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd w ]
+add_files C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd]
+update_compile_order -fileset sources_1
