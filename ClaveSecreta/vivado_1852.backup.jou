@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Nov 24 14:52:38 2022
+# Process ID: 1852
+# Current directory: C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4396 C:\Users\Cristina\Downloads\SED\TrabajoVHDL\ClaveSecreta\ClaveSecreta.xpr
+# Log file: C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/vivado.log
+# Journal file: C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Cristina/Downloads/SED/TrabajoVHDL/ClaveSecreta/ClaveSecreta.xpr
+update_compile_order -fileset sources_1
