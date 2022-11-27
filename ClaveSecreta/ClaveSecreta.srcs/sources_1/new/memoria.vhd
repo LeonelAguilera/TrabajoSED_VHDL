@@ -17,13 +17,17 @@
 -- Additional Comments:
 -- 
 ----------------------------------------------------------------------------------
-
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+package Array_pkg is
+    type DatArray is array(natural range <>) of std_logic_vector;
+end package;
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.all;
 use IEEE.std_logic_unsigned.ALL;
-
+use work.Array_pkg.all;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
@@ -40,36 +44,29 @@ entity memoria is
     Port ( 
         CLK         :   in std_logic;
         W_R         :   in std_logic;
-        DATA_IN     :   in std_logic_vector(WIDTH-1 downto 0);
-        DATA_OUT_1  :   out std_logic_vector(WIDTH-1 downto 0);
-        DATA_OUT_2  :   out std_logic_vector(WIDTH-1 downto 0);
+        DATA_IN     :   in DatArray(WIDTH-1 downto 0)(1 downto 0);
+        DATA_OUT_1  :   out DatArray(WIDTH-1 downto 0)(1 downto 0);
+        DATA_OUT_2  :   out DatArray(WIDTH-1 downto 0)(1 downto 0);
         LED         :   out std_logic
     );
 end memoria;
 
 architecture Behavioral of memoria is
 
-type ram_type is array (2 downto 0) of std_logic_vector(7 downto 0);
+type ram_type is array (2 downto 0) of DatArray;
 signal ram: ram_type;
-signal parpadeo: std_logic;
 begin 
 process(CLK)
 begin
-    if (CLK'event and CLK = '1') then
-        if (W_R = '1') then
+    if (W_R = '1') then     
+        LED <= CLK;
+            if (CLK'event and CLK = '1') then
                 ram(0) <= DATA_IN;
-                if (parpadeo = '0') then
-                        LED <= '1';
-                        parpadeo <= '1';
-                    else 
-                        LED <= '0';
-                        parpadeo <= '0';
-                end if;
-            else
-                LED <= '0'; 
+            end if;
+    else
+                LED <= '0';
                 DATA_OUT_1 <= ram(0);
                 DATA_OUT_2 <= DATA_IN;
-        end if;
     end if;
 end process;
 end Behavioral;
