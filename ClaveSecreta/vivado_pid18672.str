@@ -1,0 +1,155 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 18672
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Dec 04 23:58:43 CET 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Xilinx/software/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	D:/Xilinx/software/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	luisi
+User home directory: C:/Users/luisi
+User working directory: D:/Proyectos/FPGA/ClaveSecreta
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: D:/Xilinx/software/Vivado
+HDI_APPROOT: D:/Xilinx/software/Vivado/2021.1
+RDI_DATADIR: D:/Xilinx/software/Vivado/2021.1/data
+RDI_BINDIR: D:/Xilinx/software/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/luisi/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/luisi/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/luisi/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	D:/Xilinx/software/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	D:/Proyectos/FPGA/ClaveSecreta/vivado.log
+Vivado journal file: 	D:/Proyectos/FPGA/ClaveSecreta/vivado.jou
+Engine tmp dir: 	D:/Proyectos/FPGA/ClaveSecreta/.Xil/Vivado-18672-LAPTOP-R24EN4GM
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/software/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/software/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/software/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: D:/Xilinx/software/Vivado/2021.1
+XILINX_VIVADO: D:/Xilinx/software/Vivado/2021.1
+XILINX_VIVADO_HLS: D:/Xilinx/software/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,141 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\Proyectos\FPGA\ClaveSecreta\ClaveSecreta.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.xpr 
+// TclEventType: FLOW_ADDED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 59 MB. Current time: 12/4/22, 11:58:44 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 102 MB (+104112kb) [00:00:40]
+// [Engine Memory]: 1,141 MB (+1044752kb) [00:00:40]
+// [GUI Memory]: 107 MB (+681kb) [00:00:43]
+// WARNING: HEventQueue.dispatchEvent() is taking  6070 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/software/Vivado/2021.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 1105.898 ; gain = 0.000 
+// Project name: ClaveSecreta; location: D:/Proyectos/FPGA/ClaveSecreta; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 129 MB (+17342kb) [00:00:50]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 142 MB (+6887kb) [00:03:34]
+// WARNING: HTimer (StateMonitor Timer) is taking 798ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 346ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 381 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // D
+// PAPropertyPanels.initPanels (memoria.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, memoria(Behavioral) (memoria.vhd)]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, cfg_tb_LecturaBotones( - ) (tb_LecturaBotones.vhd)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, memoria(Behavioral) (memoria.vhd)]", 10, false); // D
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ak
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // an
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "tb_memoria"); // aa
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// bz (cs):  Add Simulation Sources  : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 85 MB. Current time: 12/5/22, 12:06:52 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 85 MB. Current time: 12/5/22, 12:07:22 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 85 MB. Current time: 12/5/22, 12:07:52 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 85 MB. Current time: 12/5/22, 12:08:22 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 85 MB. Current time: 12/5/22, 12:09:22 AM CET
+// Elapsed time: 180 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,141 MB. GUI used memory: 85 MB. Current time: 12/5/22, 12:09:52 AM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  3617 ms.
