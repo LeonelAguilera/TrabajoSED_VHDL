@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Dec  4 23:57:44 2022
+# Process ID: 18672
+# Current directory: D:/Proyectos/FPGA/ClaveSecreta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10572 D:\Proyectos\FPGA\ClaveSecreta\ClaveSecreta.xpr
+# Log file: D:/Proyectos/FPGA/ClaveSecreta/vivado.log
+# Journal file: D:/Proyectos/FPGA/ClaveSecreta\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.xpr
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'D:/../../MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store'.
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/software/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:28 . Memory (MB): peak = 1105.898 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
