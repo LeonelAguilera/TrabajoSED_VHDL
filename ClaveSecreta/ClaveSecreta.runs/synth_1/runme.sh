@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Documents/Workspaces/Vivado_Workspace/temp/ClaveSecreta/ClaveSecreta.runs/synth_1'
+HD_PWD='D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log LecturaBotones.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LecturaBotones.tcl
+EAStep vivado -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl

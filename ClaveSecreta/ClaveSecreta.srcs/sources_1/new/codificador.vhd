@@ -22,6 +22,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.math_real.all;
+--use IEEE.std_logic_unsigned.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 use IEEE.NUMERIC_STD.ALL;
@@ -49,7 +50,9 @@ begin
     begin
         IF CLK = '1' THEN
             FOR i IN 0 TO N-1 LOOP
-                COUT_temp := to_unsigned(i,INTEGER(CEIL(LOG2(REAL(N)))));
+                IF DIN(i) = '1' THEN
+                    COUT_temp := to_unsigned(i,INTEGER(CEIL(LOG2(REAL(N)))));
+                END IF;
             END LOOP;
         END IF;
         COUT <= STD_LOGIC_VECTOR(COUT_temp);         

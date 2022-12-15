@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../ClaveSecreta.srcs/sources_1/new/comparador.vhd" \
+"../../../../ClaveSecreta.srcs/sources_1/new/LecturaBotones.vhd" \
+"../../../../ClaveSecreta.srcs/sources_1/new/memoria.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd" \
+
+# Do not sort compile order
+nosort

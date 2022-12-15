@@ -31,6 +31,7 @@ end package;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.math_real.all;
+use IEEE.NUMERIC_STD.ALL;
 use work.button_pkg.all;
 
 entity LecturaBotones is
