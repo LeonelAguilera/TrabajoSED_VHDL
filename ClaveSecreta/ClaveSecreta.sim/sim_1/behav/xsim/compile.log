@@ -1,14 +1,18 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/codificador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/codificador.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'codificador'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/integerMemoryCell.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/integerMemoryCell.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'integerMemoryCell'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/comparador.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'comparador'
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_LecturaBotones'
-ERROR: [VRFC 10-879] illegal syntax for subtype indication [D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd:24]
-ERROR: [VRFC 10-879] illegal syntax for subtype indication [D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd:29]
-ERROR: [VRFC 10-3782] unit 'tb' ignored due to previous errors [D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd:19]
-ERROR: [VRFC 10-3114] architecture 'tb' not found in entity 'tb_lecturabotones' [D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd:73]
-ERROR: [VRFC 10-3782] unit 'cfg_tb_lecturabotones' ignored due to previous errors [D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd:72]
-INFO: [VRFC 10-3070] VHDL file 'D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_LecturaBotones.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sources_1/new/LecturaBotones.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LecturaBotones'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_memoria'
+ERROR: [VRFC 10-879] illegal syntax for subtype indication [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:17]
+ERROR: [VRFC 10-879] illegal syntax for subtype indication [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:18]
+ERROR: [VRFC 10-879] illegal syntax for subtype indication [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:23]
+ERROR: [VRFC 10-879] illegal syntax for subtype indication [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:24]
+ERROR: [VRFC 10-3782] unit 'tb' ignored due to previous errors [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:13]
+ERROR: [VRFC 10-3114] architecture 'tb' not found in entity 'tb_memoria' [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:81]
+ERROR: [VRFC 10-3782] unit 'cfg_tb_memoria' ignored due to previous errors [D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd:80]
+INFO: [VRFC 10-3070] VHDL file 'D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd' ignored due to errors

@@ -2,28 +2,24 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Mon Dec  5 00:10:55 2022
-# Process ID: 10652
-# Current directory: D:/Proyectos/FPGA/ClaveSecreta
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15548 D:\Proyectos\FPGA\ClaveSecreta\ClaveSecreta.xpr
-# Log file: D:/Proyectos/FPGA/ClaveSecreta/vivado.log
-# Journal file: D:/Proyectos/FPGA/ClaveSecreta\vivado.jou
+# Start of session at: Wed Dec 14 12:47:09 2022
+# Process ID: 14548
+# Current directory: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19960 D:\Documents\Workspaces\Vivado_Workspace\ProyectoVHDL\TrabajoSED_VHDL\ClaveSecreta\ClaveSecreta.xpr
+# Log file: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/vivado.log
+# Journal file: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.xpr
-WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'D:/../../MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store'.
-WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.gen/sources_1'.
+open_project D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta'
+INFO: [Project 1-313] Project file moved from 'D:/Proyectos/FPGA/ClaveSecreta' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'D:/Documents/MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store', nor could it be found using path 'D:/../../MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/xhub/board_store/xilinx_board_store'.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.gen/sources_1', nor could it be found using path 'D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/software/Vivado/2021.1/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1457.789 ; gain = 0.000
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programas/Vivado/Install/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1449.453 ; gain = 0.000
 update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd w ]
-add_files -fileset sim_1 D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd
-update_compile_order -fileset sim_1
-export_ip_user_files -of_objects  [get_files D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd] -no_script -reset -force -quiet
-remove_files  -fileset sim_1 D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd
-file delete -force D:/Proyectos/FPGA/ClaveSecreta/ClaveSecreta.srcs/sim_1/new/tb_memoria.vhd

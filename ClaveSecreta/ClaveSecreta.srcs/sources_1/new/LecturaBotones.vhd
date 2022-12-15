@@ -41,7 +41,7 @@ entity LecturaBotones is
     PORT(
         S_IN: IN std_logic_vector(N_master-1 DOWNTO 0);
         clr: IN std_logic;
-        S_OUT: OUT button_array(M_master-1 DOWNTO 0)(INTEGER(CEIL(LOG2(REAL(N_master))))-1 DOWNTO 0)
+        P_OUT: OUT button_array(M_master-1 DOWNTO 0)(INTEGER(CEIL(LOG2(REAL(N_master))))-1 DOWNTO 0)
     );
 end LecturaBotones;
 
@@ -93,6 +93,6 @@ sr: Integer_ShiftRegister PORT MAP(
     posIN => data,
     clk => clk,
     clr => clr,
-    posOUT => S_out
+    posOUT => P_out
 );
 end Behavioral;

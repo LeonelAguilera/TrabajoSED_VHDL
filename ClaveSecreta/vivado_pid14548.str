@@ -1,0 +1,168 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 14548
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Dec 14 12:47:25 CET 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Programas/Vivado/Install/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	D:/Programas/Vivado/Install/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	MrWenas
+User home directory: C:/Users/MrWenas
+User working directory: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: D:/Programas/Vivado/Install/Vivado
+HDI_APPROOT: D:/Programas/Vivado/Install/Vivado/2021.1
+RDI_DATADIR: D:/Programas/Vivado/Install/Vivado/2021.1/data
+RDI_BINDIR: D:/Programas/Vivado/Install/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/MrWenas/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	D:/Programas/Vivado/Install/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/vivado.log
+Vivado journal file: 	D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/vivado.jou
+Engine tmp dir: 	D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/.Xil/Vivado-14548-DESKTOP-NGQHGS4
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programas/Vivado/Install/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: D:/Programas/Vivado/Install/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: D:/Programas/Vivado/Install/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: D:/Programas/Vivado/Install/Vivado/2021.1
+XILINX_VIVADO: D:/Programas/Vivado/Install/Vivado/2021.1
+XILINX_VIVADO_HLS: D:/Programas/Vivado/Install/Vivado/2021.1
+
+
+GUI allocated memory:	372 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,161 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\Documents\Workspaces\Vivado_Workspace\ProyectoVHDL\TrabajoSED_VHDL\ClaveSecreta\ClaveSecreta.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta' INFO: [Project 1-313] Project file moved from 'D:/Proyectos/FPGA/ClaveSecreta' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 107 MB (+109960kb) [00:00:09]
+// [Engine Memory]: 1,161 MB (+1065433kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  2826 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programas/Vivado/Install/Vivado/2021.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,161 MB. GUI used memory: 64 MB. Current time: 12/14/22, 12:47:25 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1449.453 ; gain = 0.000 
+// Project name: ClaveSecreta; location: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 122 MB (+9486kb) [00:00:15]
+// [GUI Memory]: 141 MB (+13504kb) [00:00:18]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 148 MB (+348kb) [00:00:23]
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, comparador(arch1) (comparador.vhd)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, comparador(arch1) (comparador.vhd)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, comparador(arch1) (comparador.vhd)]", 8, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1648 ms.
+selectCodeEditor("comparador.vhd", 70, 197); // bP
+selectCodeEditor("comparador.vhd", 157, 111); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, memoria(Behavioral) (memoria.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, memoria(Behavioral) (memoria.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1598 ms.
+selectCodeEditor("memoria.vhd", 176, 226); // bP
+selectCodeEditor("memoria.vhd", 65, 319); // bP
+selectCodeEditor("memoria.vhd", 65, 319, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("memoria.vhd", 166, 307); // bP
+selectCodeEditor("memoria.vhd", 88, 213); // bP
+selectCodeEditor("memoria.vhd", 88, 213, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("memoria.vhd", 99, 239); // bP
+selectCodeEditor("memoria.vhd", 99, 239, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("memoria.vhd", 94, 232); // bP
+selectCodeEditor("memoria.vhd", 94, 232, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("memoria.vhd", 228, 231); // bP
+selectCodeEditor("memoria.vhd", 228, 231, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("memoria.vhd", 161, 435, false, false, false, true, false); // bP - Popup Trigger
+selectCodeEditor("memoria.vhd", 90, 387); // bP
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd)]", 1, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), codif : codificador(Behavioral) (codificador.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), codif : codificador(Behavioral) (codificador.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1552 ms.
+selectCodeEditor("codificador.vhd", 200, 287); // bP
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd), gen[0].MC0.mc : integerMemoryCell(Behavioral) (integerMemoryCell.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd), gen[0].MC0.mc : integerMemoryCell(Behavioral) (integerMemoryCell.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1564 ms.
+selectCodeEditor("integerMemoryCell.vhd", 205, 279); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1581 ms.
+// [GUI Memory]: 158 MB (+2511kb) [00:01:42]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LecturaBotones(Behavioral) (LecturaBotones.vhd), sr : Integer_ShiftRegister(structural) (Integer_ShiftRegister.vhd), gen[3].MCN.mc : integerMemoryCell(Behavioral) (integerMemoryCell.vhd)]", 8, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("Integer_ShiftRegister.vhd", 254, 293); // bP
+selectCodeEditor("Integer_ShiftRegister.vhd", 217, 215); // bP
+selectCodeEditor("Integer_ShiftRegister.vhd", 217, 215, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Integer_ShiftRegister.vhd", 204, 229); // bP
