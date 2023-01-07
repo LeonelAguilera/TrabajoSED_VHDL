@@ -1,14 +1,171 @@
 #-----------------------------------------------------------
-# Vivado v2021.1 (64-bit)
-# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
-# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Wed Dec 14 12:47:09 2022
-# Process ID: 14548
-# Current directory: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19960 D:\Documents\Workspaces\Vivado_Workspace\ProyectoVHDL\TrabajoSED_VHDL\ClaveSecreta\ClaveSecreta.xpr
-# Log file: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/vivado.log
-# Journal file: D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta\vivado.jou
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Dec 22 16:24:45 2022
+# Process ID: 1232
+# Current directory: C:/Users/sed/Downloads/TrabajoSED_VHDL-main/ClaveSecreta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5984 C:\Users\sed\Downloads\TrabajoSED_VHDL-main\ClaveSecreta\ClaveSecreta.xpr
+# Log file: C:/Users/sed/Downloads/TrabajoSED_VHDL-main/ClaveSecreta/vivado.log
+# Journal file: C:/Users/sed/Downloads/TrabajoSED_VHDL-main/ClaveSecreta\vivado.jou
+# Running On: DESKTOP-9L1N67Q, OS: Windows, CPU Frequency: 3200 MHz, CPU Physical cores: 4, Host memory: 3970 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/Documents/Workspaces/Vivado_Workspace/ProyectoVHDL/TrabajoSED_VHDL/ClaveSecreta/ClaveSecreta.xpr
+open_project -read_only C:/Users/sed/Downloads/TrabajoSED_VHDL-main/ClaveSecreta/ClaveSecreta.xpr
 update_compile_order -fileset sources_1
+save_project_as project_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1 -force
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd w ]
+add_files -fileset sim_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_memoria.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_memoria.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_comparador.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_comparador.vhd
+file delete -force C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_comparador.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd
+file delete -force C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_LecturaBotones.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_LecturaBotones.vhd
+file delete -force C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_LecturaBotones.vhd
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd w ]
+add_files -fileset sim_1 C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+source cfg_tb_top.tcl
+close_sim
+launch_simulation
+launch_simulation
+source cfg_tb_top.tcl
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sim_1
+relaunch_sim
+update_compile_order -fileset sim_1
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+source cfg_tb_top.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+set_property file_type {VHDL 2008} [get_files  C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.srcs/sim_1/new/tb_top.vhd]
+launch_simulation
+source cfg_tb_top.tcl
+close_sim
+launch_simulation
+source cfg_tb_top.tcl
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+relaunch_sim
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoSED_VHDL-main/project_1/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
