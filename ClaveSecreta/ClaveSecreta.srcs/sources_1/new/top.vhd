@@ -38,11 +38,15 @@ entity top is
         M_master: POSITIVE:=10
     );
     PORT(
+        --MEMORIA_tb: OUT button_array(M_master-1 DOWNTO 0)(INTEGER(CEIL(LOG2(REAL(N_master))))-1 DOWNTO 0);
+        --PARALLEL_BUS_tb: OUT button_array(M_master-1 DOWNTO 0)(INTEGER(CEIL(LOG2(REAL(N_master))))-1 DOWNTO 0);
         S_IN: IN std_logic_vector(N_master-1 DOWNTO 0);
         RESET: IN std_logic;
         CLK100MHZ: IN std_logic;
         CC: IN std_logic;
-        LED_OUTPUT: OUT std_logic
+        LED_OUTPUT: OUT std_logic;
+        LED_CC: OUT std_logic;
+        RESET_INDICATOR: OUT std_logic        
     );
 end top;
 
@@ -117,5 +121,10 @@ begin
         RST => RESET_OUT
     );
     RESET_IN <= RESET_OUT OR RESET;
-    LED_OUTPUT <= LED_1 OR LED_2;
+    --LED_OUTPUT <= LED_1 OR LED_2;
+    LED_OUTPUT <= LED_2;
+    LED_CC     <= LED_1;
+    RESET_INDICATOR <= RESET_IN;
+    --PARALLEL_BUS_tb <= PARALLEL_BUS;
+    --MEMORIA_tb <= PARALLEL_MEMORY;
 end Behavioral;
