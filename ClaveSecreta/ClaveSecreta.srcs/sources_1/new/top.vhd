@@ -84,18 +84,11 @@ architecture Behavioral of top is
             LED         :   out std_logic
         );
     END COMPONENT;
-    COMPONENT Timer
-        PORT(
-            CLK: IN std_logic;
-            RST: OUT std_logic
-        );
-    END COMPONENT;
     
     SIGNAL LED_1: std_logic;
     SIGNAL LED_2: std_logic;
     
     SIGNAL RESET_IN: std_logic;
-    SIGNAL RESET_OUT: std_logic;
     
     SIGNAL PARALLEL_BUS: button_array(M_master-1 DOWNTO 0)(INTEGER(CEIL(LOG2(REAL(N_master))))-1 DOWNTO 0);
     SIGNAL PARALLEL_MEMORY: button_array(M_master-1 DOWNTO 0)(INTEGER(CEIL(LOG2(REAL(N_master))))-1 DOWNTO 0);
@@ -116,11 +109,7 @@ begin
         DATA_OUT => PARALLEL_MEMORY,
         LED => LED_1
     );
-    my_timer: Timer PORT MAP(
-        CLK => CLK100MHZ,
-        RST => RESET_OUT
-    );
-    RESET_IN <= RESET_OUT OR RESET;
+    RESET_IN <= RESET;
     --LED_OUTPUT <= LED_1 OR LED_2;
     LED_OUTPUT <= LED_2;
     LED_CC     <= LED_1;
